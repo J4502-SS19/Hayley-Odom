@@ -1,12 +1,19 @@
 /*styles go here*/
 
 p {
-	color: #666666;
+	color: red;
     font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
+		color: blue;
+		text-align: center;
     font-family: Georgia, "Times New Roman", serif;
+		font-size: 20pt
+}
+body {
+	text-align: center;
+	background-color: powderblue;
 }
 
 #container{
