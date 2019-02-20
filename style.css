@@ -1,19 +1,28 @@
 /*styles go here*/
 
-p {
-	color: red;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
 h1 {
-		color: blue;
+		background-color: white;
+		color: orange;
 		text-align: center;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Oswald', arial, sans-serif;
 		font-size: 20pt
+}
+p {
+		color: white;
+    font-family: 'Playfair Display', georgia, serif;
+		font-size: 12pt
+		text-align:center;
+		background-color: black;
 }
 body {
 	text-align: center;
-	background-color: powderblue;
+	background-color: beige;
+}
+ul {
+	text-decoration: none;
+	text-align: center;
+	font-family: "Times New Roman", Times, sans-serif;
+	font-size: 8pt
 }
 
 #container{
