@@ -7,6 +7,8 @@ h1 {
     font-family: 'Oswald', arial, sans-serif;
 		font-size: 30pt;
 		font-weight: bolder;
+		margin-left: 400px;
+		margin-right: 400px;
 }
 p {
 		color: black;
@@ -15,6 +17,8 @@ p {
 		text-align:center;
 		background-color: orange;
 		font-weight: lighter;
+		margin-left: 400px;
+		margin-right: 400px;
 }
 body {
 	text-align: center;
@@ -26,7 +30,9 @@ ul {
 	text-decoration: none;
 	text-align: center;
 	font-family: "Times New Roman", Times, sans-serif;
-	font-size: 12pt
+	font-size: 12pt;
+	margin-left: 400px;
+	margin-right: 400px;
 }
 
 a {
