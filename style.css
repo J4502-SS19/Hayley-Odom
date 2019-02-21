@@ -33,10 +33,10 @@ a {
 text-decoration: none;
 }
 a:link {
-	color:black;
+	color:orange;
 }
 a:visited {
-	color: orange;
+	color: black;
 }
 a:hover {
 	color: blue;
