@@ -56,6 +56,9 @@ a:hover {
 	display: flex;
 	height: 300px
 }
+.item {
+	flex:1;
+}
 
 #nav a:link, #nav a:visited{
 	text-decoration: none;
