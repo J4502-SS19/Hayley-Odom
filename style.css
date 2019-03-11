@@ -52,6 +52,10 @@ a:hover {
     width: 95%;
     margin: 0 auto;
 }
+.container{
+	display: flex;
+	height: 300px
+}
 
 #nav a:link, #nav a:visited{
 	text-decoration: none;
