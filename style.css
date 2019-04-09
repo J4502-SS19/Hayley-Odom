@@ -58,7 +58,6 @@ a:hover {
 }
 .item {
 	flex:1;
-	align-self: flex-flex-end;
 }
 
 #nav a:link, #nav a:visited{
