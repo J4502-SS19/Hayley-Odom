@@ -48,22 +48,6 @@ a:hover {
 	color: blue;
 }
 
-#container{
-    width: 95%;
-    margin: 0 auto;
-}
-.container{
-	display: flow-root;
-	height: 300px
-}
-.item {
-	flex:1;
-}
-
-#nav a:link, #nav a:visited{
-	text-decoration: none;
-	list-style: none;
-}
 nav ul {
     display: none;
 }
