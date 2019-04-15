@@ -3,14 +3,14 @@
   justify-content: space-between;
 }
 
-nav ul {
+nav ul{
   display: flex;
   flex-flow: column;
 }
 
-.authorbox img {
-  /*visibility: hidden;*/
-  display: none;
+.authorbox1 img {
+visibility: hidden;
+display: none;
 }
 
 .pullquote {
@@ -18,54 +18,86 @@ nav ul {
 }
 
 article {
-  margin-bottom: 0.7em;
+  margin-bottom:.7em;
   border-bottom: 1px solid #ccc;
 }
 
-article:last-of-type {
+article:last-of-type{
   border-bottom: none;
 }
 
 @media screen and (min-width: 450px) {
 
-    nav ul {
-        flex-flow: row;
-        justify-content: space-between;
-    }
-
+nav ul {
+  flex-flow: row;
+  justify-content: space-between;
+  }
 }
 
 @media screen and (min-width: 600px) {
 
-    #container {
-        width: 80%;
-    }
+  #container {
+    width: 80%;
+  }
 
-    .authorbox img {
-      display: block;
-      width: 100%;
-      margin-top: 0.5em;
-    }
+  .authorbox1 img {
+    display: block;
+    width: 50%;
+    margin-top: 0.5em;
+  }
 
-    .authorbox {
-      width: 25%;
-      max-width: 200px;
-      float: left;
-      margin-right: 20px;
-    }
+  .authorbox1 {
+    width: 25%;
+    max-width: 50px;
+    float: left;
+    margin-right: 20px;
+  }
 }
 
 @media screen and (min-width: 800px) {
-    .item1 {
-      margin-right: auto;
-    }
+  .item1 {
+    margin-right: auto;
+  }
+  nav ul li {
+    margin: 5px;
+  }
+  .pullquote {
+    display: block;
+  }
+}
 
-    nav ul li {
-      margin: 5px;
-    }
+@media screen and (min-width: 1000px) {
 
-    .pullquote {
-      display: block;
-    }
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-gap: 20px
+    grid-template-areas:
+    "a b b"
+    "c c e"
+    ". d d";
+  }
+
+  .authorbox1 {
+    width: 100%;
+    grid-area: a;
+  }
+
+  .section1 {
+    grid-area: b;
+  }
+
+  .image {
+    grid-area: c;
+  }
+
+  .section2 {
+    grid-area: d;
+  }
+
+  .pullquote {
+    margin-top: 0;
+    grid-area: e;
+  }
 
 }
