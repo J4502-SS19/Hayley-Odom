@@ -90,9 +90,6 @@ nav a {
     display: block;
     text-decoration: none;
     padding: 20px 30px;
-}/*Styles go here*/
-html {
-  box-sizing: border-box;
 }
 
 #container {
